@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-07T12:45:01.399Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4607000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Error message for not entering value",
+        "description": "",
+        "id": "purchase-foreign-currency;error-message-for-not-entering-value",
+        "after": [
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8796000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user accesses the Purchase foreign currency cash tab",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.PayBillsStepDefs.the_user_accesses_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user tries to calculate cost without entering a value",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.PayBillsStepDefs.user_tries_to_calculate_cost_without_entering_a_value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.PayBillsStepDefs.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase Foreign Currency",
+    "description": "",
+    "id": "purchase-foreign-currency",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PurchaseForeignCurrency.feature",
+    "tags": []
+  }
+]
