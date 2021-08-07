@@ -27,6 +27,10 @@ public class LoginPage {
     @FindBy(xpath ="//a[@id='proceed-link']" )
     public WebElement proceedLink;
 
+    @FindBy(xpath ="//div[@class='alert alert-error']" )
+    public WebElement errorMessage;
+
+
 
     public LoginPage() {
         PageFactory.initElements(Driver.get(),this);
@@ -39,5 +43,17 @@ public class LoginPage {
         submitButton.click();
         advancedButton.click();
         proceedLink.click();
+    }
+
+    public void login(String username,String password){
+        signInButton.click();
+        userLoginBox.sendKeys(username);
+        userPasswordBox.sendKeys(password);
+        submitButton.click();
+if (username.equals(ConfigurationReader.get("username")) && password.equals(ConfigurationReader.get("password"))) {
+        advancedButton.click();
+        proceedLink.click();
+}
+
     }
 }

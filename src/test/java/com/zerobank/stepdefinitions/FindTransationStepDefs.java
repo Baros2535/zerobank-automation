@@ -63,8 +63,6 @@ public class FindTransationStepDefs {
 
         Assert.assertEquals(expectedelementsText,actualelementsText);
 
-
-
     }
 
     @Then("the results table should only not contain transactions dated {string}")

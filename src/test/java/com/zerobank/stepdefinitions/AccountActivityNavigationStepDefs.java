@@ -42,7 +42,6 @@ public class AccountActivityNavigationStepDefs {
         Select select=new Select(new AccountActivityPage().accountDropdown);
        Assert.assertEquals(dropDownExpected,select.getFirstSelectedOption().getText());
 
-
     }
 
 
