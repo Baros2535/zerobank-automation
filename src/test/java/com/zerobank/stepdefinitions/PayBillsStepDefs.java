@@ -66,6 +66,7 @@ public class PayBillsStepDefs {
     @When("user tries to calculate cost without selecting a currency")
     public void user_tries_to_calculate_cost_without_selecting_a_currency() {
         new PurchaseForeignCurrencyPage().amount.sendKeys("45");
+        new PurchaseForeignCurrencyPage().selectedCurrency.click();
         new PurchaseForeignCurrencyPage().calculateButton.click();
     }
 
@@ -80,6 +81,7 @@ public class PayBillsStepDefs {
     public void user_tries_to_calculate_cost_without_entering_a_value() {
         Select select=new Select(new PurchaseForeignCurrencyPage().currencyDropdown);
         select.selectByIndex(10);
+        new PurchaseForeignCurrencyPage().selectedCurrency.click();
         new PurchaseForeignCurrencyPage().calculateButton.click();
     }
 
