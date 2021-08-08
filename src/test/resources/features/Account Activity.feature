@@ -4,8 +4,9 @@ Feature: Navigating to Account Activity Page
     Given the user is logged in
     When the user navigates to "Account Activity" Page
 
+
   Scenario: Account Activity Title
-      Then the user should see the title "Zero – Account Activity"
+      Then the user should see the title "Zero - Account Activity"
 
   Scenario: Account dropdown default value
     Then Account drop down should have "Savings" selected

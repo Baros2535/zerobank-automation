@@ -15,5 +15,8 @@ public class AccountActivityPage extends BasePage {
     @FindBy(xpath = "//a[text()='Find Transactions']")
     public WebElement findTransations;
 
+    @FindBy(xpath = "//thead/tr/th")
+    public List <WebElement> transactionsColumns;
+
 
 }

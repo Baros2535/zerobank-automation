@@ -1,4 +1,5 @@
 package com.zerobank.utilities;
+import io.cucumber.java.sl.In;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -373,6 +374,29 @@ public class BrowserUtils {
     public static void waitForPresenceOfElement(By by, long time) {
         
         new WebDriverWait(Driver.get(), time).until(ExpectedConditions.presenceOfElementLocated(by));
+    }
+
+
+    /**
+     *   In our isNumeric() method, we're just checking for values that are of type Double,
+     * Integer, Float, Long, and large numbers by using any of the parse methods.
+     * https://www.baeldung.com/java-check-string-number
+     */
+
+
+     public static boolean isNumeric(String strNum) {
+        if (strNum == null) {
+            return false;
+        }
+        try {
+            double d = Double.parseDouble(strNum);
+            /*int i = Integer.parseInt(strNum);
+            float f = Float.parseFloat(strNum);
+            long l = Long.parseLong(strNum);*/
+        } catch (NumberFormatException nfe) {
+            return false;
+        }
+        return true;
     }
 }
 

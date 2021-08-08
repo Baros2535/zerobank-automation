@@ -4,20 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48bceae-7426-49b3-8053-6e51b7bca59a" name="Changes" comment="third push">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Account Activity.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Account Summary.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Pay Bills.feature" afterDir="false" />
+    <list default="true" id="f48bceae-7426-49b3-8053-6e51b7bca59a" name="Changes" comment="fourth push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountSummaryStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountActivityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountActivityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/PayBillsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/PayBillsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountActivityNavigationStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountActivityNavigationStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/FindTransationStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/FindTransationStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/PayBillsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/PayBillsStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Account Activity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Account Activity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Account Summary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Account Summary.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Pay Bills.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Pay Bills.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded3.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountActivityPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountActivityPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/PayBillsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/PayBillsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/AccountActivityNavigationStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/AccountActivityNavigationStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/FindTransationStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/FindTransationStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/PayBillsStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/PayBillsStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/BrowserUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/BrowserUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/PurchaseForeignCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/PurchaseForeignCurrency.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628341433686</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fourth push">
+      <created>1628375017789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628375017790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second push" />
     <MESSAGE value="third push" />
-    <option name="LAST_COMMIT_MESSAGE" value="third push" />
+    <MESSAGE value="fourth push" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth push" />
   </component>
 </project>

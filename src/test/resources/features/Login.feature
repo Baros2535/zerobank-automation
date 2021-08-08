@@ -5,7 +5,7 @@ Scenario: Login with valid credentials
     Given the user is logged in "username" and "password"
     Then the user should see the title "Zero - Account Summary"
 
-@NegativeLogin @wip
+@NegativeLogin
   Scenario Outline: Login with invalid credentials
     Given the user is logged in "<username>" and "<password>"
     Then the user should see the message "Login and/or password are wrong."

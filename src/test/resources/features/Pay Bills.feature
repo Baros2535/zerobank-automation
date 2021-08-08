@@ -1,3 +1,4 @@
+@wip
 Feature:  Navigating to Pay Bills Page
 
   Background:
@@ -5,7 +6,8 @@ Feature:  Navigating to Pay Bills Page
     When the user navigates to "Pay Bills" Page
 
   Scenario: Pay Bills Title
-    Then the user should see the title "Zero – Pay Bills"
+    Then the user should see the title "Zero - Pay Bills"
+
 
     Scenario: Successful Pay operation
       And the user enters the following information
@@ -15,7 +17,7 @@ Feature:  Navigating to Pay Bills Page
       |Date|2021-08-15|
       |Description|other|
       And the user clicks the Pay button
-      Then the user should see the message as "The payment was successfully submitted"
+      Then the user should see the message as "The payment was successfully submitted."
 
   Scenario: Unsuccessful Pay operation without amount
     And the user enters the following information
@@ -25,7 +27,7 @@ Feature:  Navigating to Pay Bills Page
       |Date|2021-08-15|
       |Description|other|
     And the user clicks the Pay button
-    Then the user should see the message as "Please fill out this field message!"
+    Then the user should see the message as "Please fill out this field."
 
 
   Scenario: Unsuccessful Pay operation without date
@@ -36,7 +38,7 @@ Feature:  Navigating to Pay Bills Page
       |Date||
       |Description|other|
     And the user clicks the Pay button
-    Then the user should see the message as "Please fill out this field message!"
+    Then the user should see the message as "Please fill out this field."
 
   Scenario: Unsuccessful Pay operation invalid date
     And the user enters the following information
@@ -46,7 +48,9 @@ Feature:  Navigating to Pay Bills Page
       |Date|invalid|
       |Description|other|
     And the user clicks the Pay button
-    Then the user should not see the message as "The payment was successfully submitted"
+    Then the user should see the message as "Please fill out this field."
+    And the user should not see the message as "The payment was successfully submitted."
+
 
   Scenario: Unsuccessful Pay operation invalid amount
     And the user enters the following information
@@ -56,4 +60,4 @@ Feature:  Navigating to Pay Bills Page
       |Date|2021-08-15|
       |Description|other|
     And the user clicks the Pay button
-    Then the user should not  see the message as "The payment was successfully submitted"
+    Then the user should not see the message as "The payment was successfully submitted."
